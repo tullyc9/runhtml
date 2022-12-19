@@ -6,8 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<script>
 		const urlParams=new URLSearchParams(window.location.search);
-		document.getElementsByTagName("body")[0].innerHTML = urlParams.get('code')
-		document.title = urlParams.get('title')
+		document.write(urlParams.get("code"))
 	</script>
 </head>
 <body>
